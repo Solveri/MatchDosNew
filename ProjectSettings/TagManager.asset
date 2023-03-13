@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Cyan
+  - Green
+  - Indigo
+  - Salmon
+  - Orange
+  - Pink
+  - Red
+  - Teal
+  - Yellow
   layers:
   - Default
   - TransparentFX
