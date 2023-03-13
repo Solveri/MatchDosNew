@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -200,9 +200,67 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 3, y: 4.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &835816516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 835816518}
+  - component: {fileID: 835816517}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &835816517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835816516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d8624f6291e134fbd49fae92df515f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 7
+  height: 10
+  dots:
+  - {fileID: 6629166267849482180, guid: a7e9e1fdf9f1a414e8ecaa1e67d3a948, type: 3}
+  - {fileID: 5825990820609167344, guid: 9a21cf7e61a3ec942a8bb1fd3b18cdf0, type: 3}
+  - {fileID: 521129476035629157, guid: a739a9f5c541be343a6cb4e74bee4075, type: 3}
+  - {fileID: 5685445922522054611, guid: e9b1dab92cdc6524ab8fd39139ff84b6, type: 3}
+  - {fileID: 8164694001897661600, guid: a455be9c8f54f454c84143928f8d71f9, type: 3}
+  - {fileID: 6043553501288498530, guid: 5feca37e86808a94c96ecedb6c241e8d, type: 3}
+  - {fileID: 6612860614145035123, guid: f104676bcd2e4c34686972b4507ae276, type: 3}
+  - {fileID: 1062327747873761277, guid: 0e692128145db81499d58f382f27c381, type: 3}
+  - {fileID: 6881213570675368435, guid: a7b5ad6e16978de4ea65bd8406283c81, type: 3}
+  tilepreFab: {fileID: 7263764345136189861, guid: ff333e72810b5d04abce8a17d195daca, type: 3}
+--- !u!4 &835816518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835816516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
